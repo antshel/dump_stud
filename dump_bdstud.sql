@@ -154,9 +154,9 @@ COPY public.discipline (id_discipline, name_disc, "time") FROM stdin;
 2	Filosofiya	32
 3	Menedzhment	36
 4	fiz-ra	32
-5	POPD	48
+5	POPD	45
 6	English	36
-7	Ychebnaya practica PM.11	72
+7	practica PM.11	72
 8	Ychebnaya practica PM.04	108
 9	okvks	36
 10	VPKS	48
@@ -190,7 +190,7 @@ COPY public.faculty (id_faculty, name_faculty, dekan) FROM stdin;
 2	institut geografii	Avilov
 3	institut gumanitarnih nayk	Ivanov
 4	institut matematiki i informatiki	Murtigesheva
-5	institut istorii	Nazarov
+5	institut 3wegtorii	Nazarov
 6	MIAMIS	Shvakov
 7	Yridicheskyi institut	Anichkin
 8	institut himii	Mikushina
@@ -231,7 +231,7 @@ COPY public.students (id_zachet, fname, name, lname, score, group_id, birthday) 
 38	Gorbunov	Andrey	Andreevich	150	6	2003-08-22
 39	Kislykov	Oleg	Andreevich	130	7	2003-08-22
 40	Kislykov	Oleg	Andreevich	130	7	2003-08-22
-41	Albegova	Alina	Anatoliyvna	166	9	2001-02-21
+41	Albegov	Alina	Anatoliyvna	166	9	2001-02-21
 43	Kononova	Alina	Anatoliyvna	166	10	2003-05-24
 \.
 
